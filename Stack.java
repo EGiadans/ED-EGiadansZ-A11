@@ -57,7 +57,7 @@ public class Stack <T> {
     
     public void showStack(){
         Node<T> t = top;
-        while (t) {
+        while (t != null) {
             t.printS();
             t = t.next;
         }
